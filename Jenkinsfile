@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'mvn generate'
+        sh 'mvn validate'
       }
     }
     stage('Test Unitaire') {
